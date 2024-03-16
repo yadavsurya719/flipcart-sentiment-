@@ -107,7 +107,7 @@ sentiment-analysis-web-app/
 Contributing
 Contributions are welcome! Please feel free to open issues or submit pull requests.
 
-License
+#License
 This project is licensed under the MIT License - see the LICENSE file for details.
 ## Author
 
