@@ -1,7 +1,9 @@
 ##Sentiment Analysis Web App
+
 This project is a simple web application built with Flask for performing sentiment analysis on text input. It utilizes a pre-trained machine learning model to predict the sentiment of the provided text.
 
 #Features
+
 Input text in a web form.
 Sentiment analysis prediction displayed.
 Automatic background color change for an interactive UI.
