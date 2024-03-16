@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis Result</title>
+    <style>
+        body {
+            transition: background-color 0.5s ease;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(200, 200, 200); /* Initial background color */
+        }
+        .container {
+            
+            padding: 20px;
+            background-color: rgb(220, 203, 203);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sentiment Analysis Result</h1>
+        <p>Your input text:</p>
+        <p>{{ user_input }}</p>
+        <p>Prediction:</p>
+        <p>{{ prediction }}</p>
+        <p><a href="/">Back to Home</a></p>
+    </div>
+
+    <script>
+        // JavaScript to change background color automatically
+        setInterval(() => {
+            const r = Math.floor(Math.random() * 256);
+            const g = Math.floor(Math.random() * 256);
+            const b = Math.floor(Math.random() * 256);
+            document.body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+        }, 3000); // Change color every 3 seconds
+    </script>
+</body>
+</html>
+
